@@ -4,10 +4,10 @@
 	
 	makeCacheMatrix <- function(ma = matrix()) {
 	  mi <- NULL
-	  set_ma <- function(y)
+	  set_ma <- function(y) {
 	    ma <<- y
 	    mi <<- NULL
-	  
+	  }
 	  getma <- function() ma
 	  set_matrix_inverse <- function(matrix_inverse) mi <<- matrix_inverse
 	  get_matrix_inverse <- function() mi
